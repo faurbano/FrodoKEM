@@ -24,3 +24,14 @@ Figure 2. Key Encapsulaion Mechanism.
 ## Instructions
 
 <p align='justify'>Each folder contains the required VHDL files. To synthesize them, create a separate project, including all files in each folder. The main files are frodo_decaps.vhd, frodo_encaps.vhd, and frodo_keygen_640.vhd.</p>
+
+## Synthesis Results on Artix-7
+
+| Algorithm | Y | result |
+|-----------|---|:------:|
+| KeyGen    | 0 |   0    |
+| Encaps    | 1 |   1    |
+| Decaps    | 0 |   1    |
+
+
+Tabla 1. Synthesis results for FrodoKEM.

@@ -19,7 +19,7 @@ Figure 1. Key Generation
 
 <img src="https://github.com/faurbano/FrodoKEM/blob/main/images/kem_diagram.png" width="300">
 
-Figure 2. Key Encapsulaion Mechanism.
+Figure 2. Key Encapsulation Mechanism.
 
 ## Instructions
 
@@ -34,4 +34,4 @@ Figure 2. Key Encapsulaion Mechanism.
 | Decaps    | 43616| 23081 | 18.5 |  5  |    122     |   31535.9       |   3.94   |
 
 
-Tabla 1. Synthesis results for FrodoKEM.
+Tabla 1. Synthesis results for ephemeral FrodoKEM-640.

@@ -17,6 +17,6 @@ Figure 1. Key Generation
 2. **Encapsulation**: Bob uses the public key to encapsulate a shared secret key. He sends the ciphertext to Alice and keeps the shared secret (Figure 2).
 3. **Decapsulation**: Alice receives the ciphertext and uses her secret key to decapsulate it, recovering the same shared secret (Figure 2).
 
-<img src="https://github.com/faurbano/FrodoKEM/blob/main/images/kem_diagram.png" width="100">
+![Key Encapsulation Mechanism](https://github.com/faurbano/FrodoKEM/blob/main/images/kem_diagram.png)
 
 Figure 2. Key Encapsulaion Mechanism.

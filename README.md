@@ -17,7 +17,7 @@ Figure 1. Key Generation
 2. **Encapsulation**: Bob uses the public key to encapsulate a shared secret key. He sends the ciphertext to Alice and keeps the shared secret (Figure 2).
 3. **Decapsulation**: Alice receives the ciphertext and uses her secret key to decapsulate it, recovering the same shared secret (Figure 2).
 
-![Key Encapsulation Mechanism](https://github.com/faurbano/FrodoKEM/blob/main/images/kem_diagram.png)
+<img src="https://github.com/faurbano/FrodoKEM/blob/main/images/kem_diagram.png" width="100">
 
 Figure 2. Key Encapsulaion Mechanism.
 
@@ -29,9 +29,9 @@ Figure 2. Key Encapsulaion Mechanism.
 
 | Algorithm | LUTs |  FFs  | BRAM | DSP | Fmax (MHz) | Latency ( $\mu$ s)| Power(mW)|
 |-----------|------|-------|------|-----|------------|-----------------|:--------:|
-| KeyGen    | 35398| 20648 | 10.5 |  1  |    135     |   14883.9       |   3.63.  |
-| Encaps    | 1    |   1   |.     |.    |.           |.                |.         |
-| Decaps    | 0    |   1   |.     |.    |.           |.                |.         |
+| KeyGen    | 35398| 20648 | 10.5 |  1  |    135     |   14883.9       |   3.63   |
+| Encaps    | 52068| 31095 |  13  |  5  |    124     |   30158.8       |   4.51   |
+| Decaps    | 43616| 23081 | 18.5 |  5  |    122     |   31535.9       |   3.94   |
 
 
 Tabla 1. Synthesis results for FrodoKEM.

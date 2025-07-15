@@ -27,11 +27,11 @@ Figure 2. Key Encapsulaion Mechanism.
 
 ## Synthesis Results on Artix-7
 
-| Algorithm | Y | result |
-|-----------|---|:------:|
-| KeyGen    | 0 |   0    |
-| Encaps    | 1 |   1    |
-| Decaps    | 0 |   1    |
+| Algorithm | LUTs |  FFs  | BRAM | DSP | Fmax (MHz) | Latency ($\u s) | Power(mW)|
+|-----------|------|-------|------|-----|------------|-----------------|:--------:|
+| KeyGen    | 35398| 20648 | 10.5 |  1  |    135     |   14883.9       |   3.63.  |
+| Encaps    | 1    |   1   |.     |.    |.           |.                |.         |
+| Decaps    | 0    |   1   |.     |.    |.           |.                |.         |
 
 
 Tabla 1. Synthesis results for FrodoKEM.

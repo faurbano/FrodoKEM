@@ -27,7 +27,7 @@ Figure 2. Key Encapsulaion Mechanism.
 
 ## Synthesis Results on Artix-7
 
-| Algorithm | LUTs |  FFs  | BRAM | DSP | Fmax (MHz) | Latency ($\Mu$s)| Power(mW)|
+| Algorithm | LUTs |  FFs  | BRAM | DSP | Fmax (MHz) | Latency ($$\Mu$$s)| Power(mW)|
 |-----------|------|-------|------|-----|------------|-----------------|:--------:|
 | KeyGen    | 35398| 20648 | 10.5 |  1  |    135     |   14883.9       |   3.63.  |
 | Encaps    | 1    |   1   |.     |.    |.           |.                |.         |

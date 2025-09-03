@@ -1,8 +1,10 @@
 # FrodoKEM Hardware Implementation for Post-Quantum Cryptography
 
-## This repository belongs to the paper presented to the IEEE Latin America Transactions Journal ID 9651
+## This repository belongs to the paper presented to the IEEE Latin America Transactions Journal
 
-## Link: 
+## Link: [FrodoKEM Hardware Implementation for Post-Quantum Cryptography](https://latamt.ieeer9.org/index.php/transactions/article/view/9651)
+
+## Doi: 
 
 ## Key Encapsulation Mecanism (KEM) for Post-Quantum Cryptography
 
@@ -29,11 +31,11 @@ Figure 2. Key Encapsulation Mechanism.
 
 ## Synthesis Results on Artix-7
 
-| Algorithm | LUTs |  FFs  | BRAM | DSP | Fmax (MHz) | Latency ( $\mu$ s)| Power(mW)|
-|-----------|------|-------|------|-----|------------|-----------------|:--------:|
-| KeyGen    | 35398| 20648 | 10.5 |  1  |    135     |   14883.9       |   3.63   |
-| Encaps    | 52068| 31095 |  13  |  5  |    124     |   30158.8       |   4.51   |
-| Decaps    | 43616| 23081 | 18.5 |  5  |    122     |   31535.9       |   3.94   |
+| Algorithm | LUTs |  FFs  | BRAM | DSP | Fmax (MHz) | Latency ( $\mu$ s)| 
+|-----------|------|-------|------|-----|------------|:---------------:|
+| KeyGen    | 35398| 20648 | 10.5 |  1  |    135     |   14883.9       | 
+| Encaps    | 52068| 31095 |  13  |  5  |    124     |   30158.8       |
+| Decaps    | 43616| 23081 | 18.5 |  5  |    122     |   31535.9       |
 
 
 Tabla 1. Synthesis results for ephemeral FrodoKEM-640.

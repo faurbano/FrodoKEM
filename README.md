@@ -2,11 +2,9 @@
 
 ## This repository belongs to the article published in the IEEE Latin America Transactions journal:
 
-##
-
 How to cite:
 
-<p align='justify', style="font-family: Courier, monospace;">F. A. Urbano-Molano and J. Velasco-Medina, “FrodoKEM Hardware Implementation for Post-Quantum Cryptography”, IEEE LAT AM T, vol. 23, no. 10, pp. 922–930, Aug. 2025.</p>
+<p align='justify'>``F. A. Urbano-Molano and J. Velasco-Medina, “FrodoKEM Hardware Implementation for Post-Quantum Cryptography”, IEEE LAT AM T, vol. 23, no. 10, pp. 922–930, Aug. 2025.``</p>
 
 ## Link: [FrodoKEM Hardware Implementation for Post-Quantum Cryptography](https://latamt.ieeer9.org/index.php/transactions/article/view/9651/)
 

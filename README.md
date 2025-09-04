@@ -8,7 +8,7 @@ How to cite:
 
 ## Link: [FrodoKEM Hardware Implementation for Post-Quantum Cryptography](https://latamt.ieeer9.org/index.php/transactions/article/view/9651/)
 
-## Doi: 
+## Doi: [10.1109/TLA.2025.11150633](https://doi.org/10.1109/TLA.2025.11150633)
 
 ## Key Encapsulation Mecanism (KEM) for Post-Quantum Cryptography
 
